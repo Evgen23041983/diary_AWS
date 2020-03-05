@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Мар 06 2020 г., 01:25
+-- Время создания: Мар 06 2020 г., 02:05
 -- Версия сервера: 8.0.15
 -- Версия PHP: 7.0.33
 
@@ -41,9 +41,10 @@ CREATE TABLE `tasks` (
 
 INSERT INTO `tasks` (`id`, `member`, `task`, `done`) VALUES
 (1, 'son', 'vacuum', 'Yes'),
-(2, 'mather', 'wash', 'No'),
+(2, 'mother', 'wash', 'No'),
 (3, 'daughter', 'to wash the dishes', 'No'),
-(4, 'mather', 'make dinner', 'Yes');
+(4, 'mother', 'make dinner', 'Yes'),
+(5, 'father', 'Make a breakfast', 'No');
 
 -- --------------------------------------------------------
 
@@ -63,7 +64,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `email`, `login`, `password`) VALUES
-(1, 'mather@gmail.com', 'mather', '$2y$11$e3aa24f18669fb7b50d43uz6rpW0BXkwezD65nmJLWm6YirM9GPZi'),
+(1, 'mother@gmail.com', 'mother', '$2y$11$e3aa24f18669fb7b50d43uz6rpW0BXkwezD65nmJLWm6YirM9GPZi'),
 (2, 'father@gmail.com', 'father', '$2y$11$b366ac3c11fd3226dc3d1OqmS0ML6sQ3QlfPlQI7NwvWLlmWcYyiW'),
 (3, 'child@gmail.com', 'child', '$2y$11$0c0de3d36c14785796100uk6yHxVwv4hNDfpvwBBSrzCPMQ/yCvDu'),
 (4, 'child1@gmail.com', '333', '$2y$11$b0bbaae829d4181ec9a1fupvIW8ZvK2jcQJ23w3mBJkFT1ExAGa7W');
@@ -94,7 +95,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT для таблицы `tasks`
 --
 ALTER TABLE `tasks`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT для таблицы `users`

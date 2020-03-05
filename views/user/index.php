@@ -11,8 +11,8 @@
 	<link rel="stylesheet" type="text/css" href="../css/style.css" />
 	</head>
 	<body>
-        <h1>Signed in as MATHER</h1>
-        <div id="link"><a  href="/mather"> <h1>Go</h1></a></div>
+        <h1>Signed in as MOTHER</h1>
+        <div id="link"><a  href="/mother"> <h1>Go</h1></a></div>
 
 </body>
 </html>

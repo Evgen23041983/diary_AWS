@@ -5,7 +5,7 @@ class Child extends Model
     public static function GetInfo()
     {
         $db = Db::getConnection();
-        $sql = 'SELECT * FROM `tasks`WHERE `member`!="mather" AND `member`!="father"';
+        $sql = 'SELECT * FROM `tasks`WHERE `member`!="mother" AND `member`!="father"';
         $result = $db->query($sql);
         $index = array();
         $i=0;

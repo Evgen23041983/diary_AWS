@@ -34,11 +34,11 @@
                             Done
                         </div>
                     </div>
-                    <?php foreach (Mather::GetInfo() AS $index): ?> 
+                    <?php foreach (Mother::GetInfo() AS $index): ?> 
                     <div class="row table-dark d-flex flex-row justify-content-around py-2">
                         <div class="col-1 text-center"><?=$index['id']?></div>
 
-                        <div class="col-3 text-center">Mather</div>
+                        <div class="col-3 text-center">Mother</div>
 
                         <div class="col-6"><?=$index['task']?></div>
 
@@ -87,4 +87,3 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 	</body>
 </html>
-<a href="/">Logout</a>

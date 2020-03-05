@@ -90,10 +90,10 @@ class User
        
 
 
-    public static function checkUserMather($login)
+    public static function checkUserMother($login)
     {
         $db = Db::getConnection();
-        $sql = 'SELECT * FROM users WHERE login = "mather"';
+        $sql = 'SELECT * FROM users WHERE login = "mother"';
         $result = $db->prepare($sql);
         $result->bindParam(':login', $login, PDO::PARAM_STR);
         $result->execute();

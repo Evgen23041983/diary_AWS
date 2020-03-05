@@ -62,7 +62,7 @@ class UserController
         $userId = $check['id'];
         if ($this->verify($password, $hashed_password) ) 
         {
-            if ($email == 'mather@gmail.com') {
+            if ($email == 'mother@gmail.com') {
                 User::auth($userId);
                 require_once(ROOT . '/views/user/index.php');
                 return true;

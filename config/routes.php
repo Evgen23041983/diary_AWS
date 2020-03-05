@@ -4,7 +4,7 @@
     'user/register' => 'user/register',
     'user/login' => 'user/login',
     'user/logout' => 'user/logout',
-    'mather' => 'mather/add',
+    'mother' => 'mother/add',
     'father' => 'father/add',
     'child' => 'child/add',
     );
